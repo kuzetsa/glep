@@ -8,10 +8,11 @@ Author: Richard Freeman <rich0@gentoo.org>,
         Michał Górny <mgorny@gentoo.org>
 Type: Informational
 Status: Active
-Version: 1.1
+Version: 1.2
 Created: 2013-04-23
-Last-Modified: 2022-07-02
-Post-History: 2018-06-10, 2018-06-19, 2018-08-31, 2018-09-26
+Last-Modified: 2022-10-22
+Post-History: 2018-06-10, 2018-06-19, 2018-08-31, 2018-09-26, 2022-07-12,
+              2022-10-21, 2022-10-22
 Content-Type: text/x-rst
 ---
 
@@ -137,8 +138,7 @@ the Certificate of Origin by adding ::
     Signed-off-by: Name <e-mail>
 
 to the commit message as a separate line.  The sign-off must contain
-the committer's legal name as a natural person, i.e., the name that
-would appear in a government issued document.
+the contributor's name as discussed in the next section.
 
 The following is the current Gentoo Certificate of Origin, revision 1:
 
@@ -178,6 +178,26 @@ Alternatively, and if it is applicable, committers can certify their
 commits with the Linux Kernel DCO 1.1 [#DCO-1.1]_.  This shall be
 indicated by adding ``(DCO-1.1)`` at the end of the ``Signed-off-by``
 line.  Using the Gentoo Certificate of Origin is strongly preferred.
+
+
+Contributor Name
+----------------
+
+Contributors must sign off on contributions with their name as a
+natural person (not a corporation), that can be made public, and would
+pass copyright due diligence.
+
+Nothing further is required if the name matches a government issued
+document of the contributor.
+
+If the name does not match any government issued document, it must
+be a name that can be verified by simple records search, and/or
+attestable in a written statement, with a witnessed signature as
+before a notary.
+
+For the purposes of this policy, verification of the name will be
+deferred until such time as required by government action or legal
+proceedings.
 
 
 Copyright Attribution
@@ -343,6 +363,9 @@ Many people have participated in invaluable discussions on this GLEP.
 In particular, the authors would like to thank David Abbott,
 Roy Bamford, Kristian Fiskerstrand, Andreas K. Hüttel, Manuel Rüger,
 Matija Šuklje, Matthew Thode, and Alec Warner for their input.
+
+Version 1.2 contains contributions by kuzetsa CatSwarm, Richard Freeman,
+John Helmert III, Robin H. Johnson, Ulrich Müller, Alec Warner.
 
 
 References
